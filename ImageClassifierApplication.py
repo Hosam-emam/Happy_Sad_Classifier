@@ -42,7 +42,7 @@ st.markdown("""
 # --- Function to Load Model ---
 @st.cache_resource
 def load_model():
-    return tf.keras.models.load_model(r'My Models/VibeClassifier.h5')
+    return tf.keras.models.load_model(r'my_models/VibeClassifier.h5')
 
 # --- Function to Classify Image ---
 def classify_image(image_array):
